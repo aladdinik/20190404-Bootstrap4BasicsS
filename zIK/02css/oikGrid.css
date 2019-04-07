@@ -112,12 +112,13 @@ img#backgroundImg {
 CLEARFIX   for floated elements
 ++++++++++++++++++++++++++++++++
 */
-.clearfix::before,
-.clearfix::after    {
+.clearfixi::before,
+.clearfixi::after    {
     content: " ";
     clear: both;
     display: table;
 }
+/*slightly change its name because of bootstrap .clearfix version which uses display: block;*/
 
 /*
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
